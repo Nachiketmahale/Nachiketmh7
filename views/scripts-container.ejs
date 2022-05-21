@@ -1,0 +1,41 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- scripts -->
+<script src="/js/Home.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+  function sendEmail(){
+   Email.send({
+   Host : "smtp.gmail.com",
+   Username : "nachiketmh7@gmail.com",
+   Password : "Nachiketmh7@mh7",
+   To : 'mahalenachiket77@gmail.com',
+   From : `${document.getElementById('eml').value}`,
+   Subject : `${document.getElementById('sbj').value}`,
+   Body : `${document.getElementById('msg').value}`
+   }).then(
+   message => alert(message)
+   );
+  }
+</script>
+<script>
+    const menubtn=document.getElementById('toggle-btn');
+    menubtn.addEventListener('click',()=>{
+       document.getElementById('mc').classList.toggle('menu-container-shower');
+       document.getElementById('mobile-navigation-bar').classList.toggle('visible');
+       document.querySelector('body').classList.toggle('overflow-hide');
+       $('.bar').toggleClass('removemargin');
+       $('#bar1').toggleClass('hide');
+       $('#bar2').toggleClass('rotate-45');
+       $('#bar3').toggleClass('rotate-neg45');
+    })
+    const link=document.getElementById('cont').addEventListener('click',()=>{
+       document.getElementById('mc').classList.toggle('menu-container-shower');
+       document.getElementById('mobile-navigation-bar').classList.toggle('visible');
+       document.querySelector('body').classList.toggle('overflow-hide');
+    })
+   //  $('#toggle-btn')
+   //  .click(
+       
+   //  )
+</script>

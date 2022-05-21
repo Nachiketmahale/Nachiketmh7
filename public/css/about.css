@@ -1,0 +1,9 @@
+#aboutme-wrapper{
+    margin:0px auto;
+    gap:30px;
+}
+.edu,.wrk{
+    padding:25px;
+    border:1px solid #eee;
+    /* min-width: 356px */
+}

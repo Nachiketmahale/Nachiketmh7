@@ -1,0 +1,60 @@
+footer{
+    background: #1a202c;
+}
+footer p{
+    margin-bottom:0px;
+}
+#social-status{
+    margin-left: auto;
+}
+.ss{
+    margin-left:1.5rem;
+}
+#copyright-holder{
+    margin:11px 10px;
+    padding-left: 5px;
+    flex:1;
+}
+
+#copyright-holder p{
+    max-width: 228px;
+    border-left:1px solid #eee;
+    padding:8px 10px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#name{
+    margin-left: .8rem;
+    display: inline;
+    font-size: 1.2rem;
+}
+.ss i{
+    color:White;
+}
+.ss:hover i{
+    color:blue;
+}
+
+@media only screen and (max-width:768px)
+{
+    #footer-wrapper{
+        flex-wrap:wrap;
+    }
+    #social-status{
+        margin:1rem auto;
+    }
+    @media only screen and (max-width:418px)
+    {
+        #copyright-holder{
+            flex-basis: max-content;
+            margin:1rem 0px;
+            text-align: center;
+        }
+        #copyright-holder p{
+            margin:0px auto;
+        }
+        #footer-wrapper{
+            justify-content: center;
+        }
+    }
+}

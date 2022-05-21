@@ -1,0 +1,22 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+#allprojects{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    row-gap: 2rem;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:darkblue
+}
